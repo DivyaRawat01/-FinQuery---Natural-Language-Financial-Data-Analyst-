@@ -3,12 +3,12 @@ import pandas as pd
 import google.generativeai as genai
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyDIfVhj5aM0RCKje9mzqSqcdhniaBG6JCA"
+GEMINI_API_KEY = "Your API key"
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-2.0-flash-exp')
 
 # Load your CSV file 
-df = pd.read_csv(r"E:\project\Sem project DS\Python\expenses.csv")
+df = pd.read_csv(r"file path")
 
 SUGGESTIONS = [
     "What is the total amount spent?",
@@ -98,4 +98,5 @@ print(f'Total: ${{result:,.2f}}')
         
     except Exception as e:
         print(f"\n❌ Error: {e}")
+
         print("Try rephrasing your question or use one of the suggestions above.\n")
