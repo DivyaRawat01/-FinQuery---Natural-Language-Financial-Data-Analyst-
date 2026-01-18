@@ -157,7 +157,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Divya Rawat**
 - GitHub: [GitHub](https://github.com/DivyaRawat01/)
 - LinkedIn:[LinkedIn](https://www.linkedin.com/in/divya-rawat-053940341/)
 
